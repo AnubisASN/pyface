@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5778321-47fb-4a66-9fbb-9cd9c63d3c67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/face_recognition-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_Korean.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_Simplified_Chinese.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="91b8289c-c936-4b18-8053-7974b4aa8ecd" />
+  </component>
+  <component name="ProjectId" id="1UmaN9g4X3RPhwkFI4CRnmM2mfw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="face_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="face_recognition-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/face_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_test/face_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.face_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5778321-47fb-4a66-9fbb-9cd9c63d3c67" name="Default Changelist" comment="" />
+      <created>1575964181290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575964181290</updated>
+      <workItem from="1575964182860" duration="23234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="289" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576043975246">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state x="573" y="289" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576043975246" />
+    <state x="663" y="428" width="343" height="225" key="Github.ShareDialog" timestamp="1576043552467">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state x="663" y="428" width="343" height="225" key="Github.ShareDialog/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576043552467" />
+    <state x="562" y="163" width="545" height="756" key="Github.UntrackedFilesDialog" timestamp="1576043562401">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state x="562" y="163" width="545" height="756" key="Github.UntrackedFilesDialog/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576043562401" />
+    <state width="1630" height="259" key="GridCell.Tab.0.bottom" timestamp="1576042976911">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state width="1630" height="259" key="GridCell.Tab.0.bottom/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576042976911" />
+    <state width="1630" height="259" key="GridCell.Tab.0.center" timestamp="1576042976911">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state width="1630" height="259" key="GridCell.Tab.0.center/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576042976911" />
+    <state width="1630" height="259" key="GridCell.Tab.0.left" timestamp="1576042976911">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state width="1630" height="259" key="GridCell.Tab.0.left/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576042976911" />
+    <state width="1630" height="259" key="GridCell.Tab.0.right" timestamp="1576042976911">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state width="1630" height="259" key="GridCell.Tab.0.right/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576042976911" />
+    <state x="294" y="172" key="SettingsEditor" timestamp="1576043353396">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state x="294" y="172" key="SettingsEditor/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576043353396" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/face_recognition_master$face_test.coverage" NAME="face_test Coverage Results" MODIFIED="1576042803635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face_test" />
+  </component>
+</project>
