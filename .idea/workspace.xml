@@ -107,6 +107,10 @@
       <screen x="0" y="34" width="1680" height="1016" />
     </state>
     <state x="573" y="289" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576043975246" />
+    <state x="398" y="45" width="874" height="991" key="CommitChangelistDialog2" timestamp="1576044005257">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state x="398" y="45" width="874" height="991" key="CommitChangelistDialog2/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576044005257" />
     <state x="663" y="428" width="343" height="225" key="Github.ShareDialog" timestamp="1576043552467">
       <screen x="0" y="34" width="1680" height="1016" />
     </state>
@@ -135,6 +139,10 @@
       <screen x="0" y="34" width="1680" height="1016" />
     </state>
     <state x="294" y="172" key="SettingsEditor/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576043353396" />
+    <state x="435" y="274" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1576044007190">
+      <screen x="0" y="34" width="1680" height="1016" />
+    </state>
+    <state x="435" y="274" width="800" height="534" key="Vcs.Push.Dialog.v2/0.34.1680.1016/1680.0.1440.900@0.34.1680.1016" timestamp="1576044007190" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/face_recognition_master$face_test.coverage" NAME="face_test Coverage Results" MODIFIED="1576042803635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face_test" />
