@@ -10,12 +10,12 @@ import face_test.face_test
 import threading
 
 # 储存截图的目录
-path_screenshots = "/super/WorkSpace/PycharmProjects/screenshots/"
+path_screenshots = "/extend/WorkSpace/Python/"
 
 # Dlib 正向人脸检测
 detector = dlib.get_frontal_face_detector()
 # Dlib 人脸特征点预测
-predictor = dlib.shape_predictor('/super/WorkSpace/PycharmProjects/face_recognition-master/data')
+predictor = dlib.shape_predictor('/extend/WorkSpace/Python/data')
 
 # 创建 cv2 摄像头对象
 cap = cv2.VideoCapture(0)
@@ -27,10 +27,10 @@ cap.set(3, 480)
 
 # Delete all the screenshots
 def del_ss():
-    ss = os.listdir("/super/WorkSpace/PycharmProjects/screenshots/")
+    ss = os.listdir("/extend/WorkSpace/Python/")
     for image in ss:
-        print("Remove: ", "/super/WorkSpace/PycharmProjects/screenshots/" + image)
-        os.remove("/super/WorkSpace/PycharmProjects/screenshots/" + image)
+        print("Remove: ", "/extend/WorkSpace/Python/" + image)
+        os.remove("/extend/WorkSpace/Python/" + image)
 
 
 # del_ss()
@@ -38,8 +38,8 @@ def del_ss():
 
 # 截图 screenshots 的计数器
 ss_cnt = 0
-loading = face_test.face_test.thread_loading("/super/WorkSpace/PycharmProjects/con/")
-loading.start()
+#loading = face_test.face_test.thread_loading("/extend/WorkSpace/Python/")
+#loading.start()
 # cap.isOpened() 返回 true/false 检查初始化是否成功
 faces = 0
 
@@ -65,9 +65,9 @@ while cap.isOpened():
 
     # 检测到人脸
     if len(faces) != 0:
-        cv2.imwrite(path_screenshots + "con.jpg", im_rd)
-        contrast = face_test.face_test.thread_contrast(path_screenshots + "con.jpg", 0.35)
-        contrast.start()
+     #   cv2.imwrite(path_screenshots + "con.jpg", im_rd)
+      #  contrast = face_test.face_test.thread_contrast(path_screenshots + "con.jpg", 0.35)
+       # contrast.start()
 
         for i in range(len(faces)):
             landmarks = np.matrix([[p.x, p.y] for p in predictor(im_rd, faces[i]).parts()])

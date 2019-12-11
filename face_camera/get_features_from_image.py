@@ -14,10 +14,10 @@ import cv2          # 图像处理的库 OpenCv
 # Dlib 正向人脸检测
 detector = dlib.get_frontal_face_detector()
 # Dlib 人脸特征点预测
-predictor = dlib.shape_predictor('data/dlib/shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('/extend/WorkSpace/Python/pyface/dat')
 
 # 读取图像文件
-img_rd = cv2.imread("data/samples/face_2.jpg")
+img_rd = cv2.imread("/extend/WorkSpace/Python/face_2.jpg")
 img_gray = cv2.cvtColor(img_rd, cv2.COLOR_RGB2GRAY)
 
 # 人脸数

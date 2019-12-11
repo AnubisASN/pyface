@@ -130,7 +130,6 @@ class thread_contrast(threading.Thread):
 
     def run(self):
         if con_status != 1:
-            con_status=1
 
             print("识别线程线程启动")
             faceContrast(self.imgFilePaths, self.tolerance)
