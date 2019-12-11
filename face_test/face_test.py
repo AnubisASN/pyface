@@ -1,12 +1,10 @@
 import datetime
 import os
+import threading
 
 import face_recognition
 import time
 import cv2
-
-class face_test:
-    "Python 人脸测试"
 
 
 def time_sleep(sta_time, end_time):
@@ -28,9 +26,11 @@ li_known_encodings = []
 
 
 # 加载识别库
-def loading(imgFilePaths):
+def faceLoading(imgFilePaths):
     # 编码库
     sta_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    li_known_encodings.clear()
+    li_info.clear()
     for i, file in enumerate(os.listdir(imgFilePaths)):
         try:
             print("人脸数据加载：#{}:".format(i), imgFilePaths + file)
@@ -49,10 +49,10 @@ def faceContrast(newImagPath, tolerance):
     # 加载是识别人编码
     try:
         image_to_test = face_recognition.load_image_file(newImagPath)
+        image_to_test_encoding = face_recognition.face_encodings(image_to_test)[0]
     except FileNotFoundError:
         print("文件不存在")
         return
-    image_to_test_encoding = face_recognition.face_encodings(image_to_test)[0]
     # 对比库 相差度
     face_distances = face_recognition.face_distance(li_known_encodings, image_to_test_encoding)
     print("resylts:", face_distances)
@@ -62,10 +62,11 @@ def faceContrast(newImagPath, tolerance):
         print("-正常截止值为0.3。结果：{}".format(result))
         if result:
             print("识别成功--:{}".format(li_info[i]))
-            break
+            return li_info[i]
         print()
     end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     print("耗时：", time_sleep(sta_time, end_time))
+    return time_sleep(sta_time, end_time)
 
 
 # 单张对比
@@ -105,3 +106,49 @@ def faceFor():
 #     i += 1
 # end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 # print(time_sleep(sta_time, end_time))
+class thread_loading(threading.Thread):
+
+    def __init__(self, imgFilePaths):
+        threading.Thread.__init__(self)
+        self.imgFilePaths = imgFilePaths
+
+    def run(self):
+        print("加载线程启动")
+        faceLoading(self.imgFilePaths)
+        print("加载完成，关闭线程")
+
+
+con_status = 0
+
+
+class thread_contrast(threading.Thread):
+
+    def __init__(self, imgFilePaths, tolerance):
+        threading.Thread.__init__(self)
+        self.imgFilePaths = imgFilePaths
+        self.tolerance = tolerance
+
+    def run(self):
+        if con_status != 1:
+            con_status=1
+
+            print("识别线程线程启动")
+            faceContrast(self.imgFilePaths, self.tolerance)
+            print("加载完成，关闭线程")
+
+    con_status = 0
+
+
+class thread_test(threading.Thread):
+
+    def __init__(self, tolerance):
+        threading.Thread.__init__(self)
+        self.tolerance = tolerance
+
+    def run(self):
+        print("测试线程线程启动")
+        i = 1
+        while i < self.tolerance:
+            print("测试线程运行")
+        print("测试完成，关闭线程")
+        time_sleep(0, 500)
